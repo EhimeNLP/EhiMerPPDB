@@ -1,15 +1,18 @@
 # EhiMerPPDB
-英日対訳コーパス[JParaCrawl](https://www.kecl.ntt.co.jp/icl/lirg/jparacrawl/)に対してBilingual Pivotingを適用することで、約3.8憶件の言い換え辞書を構築しました。
+英日対訳コーパス[JParaCrawl](https://www.kecl.ntt.co.jp/icl/lirg/jparacrawl/)に対してBilingual Pivotingを適用することで、約3.8憶件の**日本語言い換え辞書**を構築しました。
 
 <br>
 
 ## ダウンロード
 言い換え確率に対して閾値（0.20，0.10，0.05，0.01）を設定し、それぞれをサイズS，M，L，XLとしています。  
+この閾値の設定は、先行研究である[PPDB : Japanese](https://ahcweb01.naist.jp/old/resource/jppdb/)に倣っています。  
+
 EhiMerPPDBに含まれる言い換え対数とダウンロードURLは以下の通りです。
   |  [S](https://drive.google.com/file/d/1fCRKblzIlxiZWa4bnmf7y1yY_ABRjGpZ/view?usp=sharing)  |  [M](https://drive.google.com/file/d/1pmThQl4xa3sA9kwWhTamWwJoPrQNL-vv/view?usp=sharing)  |  [L](https://drive.google.com/file/d/1g0Lt-2qZUF3bXHNWTgOFPyAiRQk_z3N6/view?usp=sharing)  |  [XL](https://drive.google.com/file/d/11ApNP9xNlLVnSPmT7WD3Q3yRaW2uvloN/view?usp=sharing)  |  [ALL](https://drive.google.com/file/d/1Lg9mTtH9ZC9sn9P4CF1pJ0zaMrlJfsbm/view?usp=sharing)  |
   | ---- | ---- | ---- | ---- | ---- |
   |  4,964,291  |  8,642,080  |  13,388,634  |  30,379,525  |  386,866,958  |
-  
+
+
 <br>
 
 ## ファイルについて
@@ -26,8 +29,8 @@ EhiMerPPDBには以下のような言い換え対が含まれています。
 執筆 者 ||| 著者 ら ||| 0.019462660942296997 ||| authors, authorship, the authors
 ```
 #### 格納フォーマット
-各行ごとに1つの言い換えが収録されています。  
-フォーマットは ` 言い換え元のフレーズ ||| 言い換え先のフレーズ ||| 言い換え確率 ||| ピボット単語 ` です。  
+各行に1つの言い換えが収録されています。  
+フォーマットは ` 言い換え元のフレーズ ||| 言い換え先のフレーズ ||| 言い換え確率 ||| ピボットフレーズ ` です。  
 言い換え元のフレーズと言い換え先のフレーズはMeCabでトークナイズされており、半角スペースで接続されています。
 
 
