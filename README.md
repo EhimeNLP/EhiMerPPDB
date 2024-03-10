@@ -1,12 +1,16 @@
 # EhiMerPPDB
 英日対訳コーパス[JParaCrawl](https://www.kecl.ntt.co.jp/icl/lirg/jparacrawl/)に対してBilingual Pivotingを適用することで、約3.8憶件の言い換え辞書を構築しました。
 
+<br>
+
 ## ダウンロード
 言い換え確率に対して閾値（0.20，0.10，0.05，0.01）を設定し、それぞれをサイズS，M，L，XLとしています。  
 EhiMerPPDBに含まれる言い換え対数とダウンロードURLは以下の通りです。
   |  [S](https://drive.google.com/file/d/1fCRKblzIlxiZWa4bnmf7y1yY_ABRjGpZ/view?usp=sharing)  |  [M](https://drive.google.com/file/d/1pmThQl4xa3sA9kwWhTamWwJoPrQNL-vv/view?usp=sharing)  |  [L](https://drive.google.com/file/d/1g0Lt-2qZUF3bXHNWTgOFPyAiRQk_z3N6/view?usp=sharing)  |  [XL](https://drive.google.com/file/d/11ApNP9xNlLVnSPmT7WD3Q3yRaW2uvloN/view?usp=sharing)  |  [ALL](https://drive.google.com/file/d/1Lg9mTtH9ZC9sn9P4CF1pJ0zaMrlJfsbm/view?usp=sharing)  |
   | ---- | ---- | ---- | ---- | ---- |
   |  4,964,291  |  8,642,080  |  13,388,634  |  30,379,525  |  386,866,958  |
+  
+<br>
 
 ## ファイルについて
 EhiMerPPDBには以下のような言い換え対が含まれています。
@@ -29,10 +33,12 @@ EhiMerPPDBには以下のような言い換え対が含まれています。
 
 <br>
   
-## ライセンス
-
-
 ## 文献情報
 近藤里咲, 梶原智之, 二宮崇. <br>
 JParaCrawl からの大規模日本語言い換え辞書の構築. <br>
 言語処理学会第30回年次大会, pp.1736-1740, March 2024. \[[PDF](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P6-20.pdf)\]
+
+<br>
+
+## ライセンス
+Creative Commons Attribution 4.0 International License (CC BY 4.0)
