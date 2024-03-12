@@ -44,4 +44,5 @@ JParaCrawl からの大規模日本語言い換え辞書の構築. <br>
 <br>
 
 ## ライセンス
-Creative Commons Attribution 4.0 International License (CC BY 4.0)
+本データセットはJParaCrawlに基づいて作成された派生データであるため、ライセンスはJParaCrawlに従います。  
+詳細につきましては[こちら](https://www.kecl.ntt.co.jp/icl/lirg/jparacrawl/)をご確認ください。
